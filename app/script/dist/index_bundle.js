@@ -1,1 +1,0 @@
-window.console.log(5);
