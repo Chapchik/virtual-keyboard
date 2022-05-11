@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+  height: 350px;
+  font-size: 36px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 8px;
+  row-gap: 8px;
+  padding: 20px;
+  width: 85%;
+  height: 375px;
+  background-color: rgb(108, 108, 108);
+  margin: 20px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  width: 58px;
+  height: 58px;
+  font-size: 24px;
+  transition: .5s;
+  background-color: white;
+  &:hover {
+    background-color: antiquewhite;
+    transition: .5s;
+    cursor: pointer;
+  }
+}
+
+.backspace {
+  width: 170px;
+}
+
+.tab {
+  width: 100px;
+}
+
+.capslock {
+  width: 130px;
+}
+
+.enter, .shift {
+  width: 150px;
+}
+
+.space {
+  width: 500px;
+}
+
+.shift~.shift {
+  width: 125px;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 550px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.click {
+  background-color: antiquewhite;
+  transform: scale(0.95);
+}
+
+.active {
+  background-color: antiquewhite;
+}
