@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: bisque;
 }
 
 .wrapper {
@@ -22,6 +23,8 @@
   height: 350px;
   font-size: 36px;
   padding: 25px;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .keyboard {
@@ -46,6 +49,7 @@
   height: 58px;
   font-size: 24px;
   transition: .5s;
+  background-color: white;
   &:hover {
     background-color: antiquewhite;
     transition: .5s;
@@ -88,4 +92,8 @@
 .click {
   background-color: antiquewhite;
   transform: scale(0.95);
+}
+
+.active {
+  background-color: antiquewhite;
 }
